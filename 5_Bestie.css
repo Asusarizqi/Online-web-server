@@ -1,0 +1,67 @@
+h2{
+    color: blue;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h2:hover{
+    color: red;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: blue;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h3:hover{
+    color: red;
+    letter-spacing: 2px;
+}
+
+button{
+    width: 30%;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px gray;
+}
+button:hover{
+    background-color: pink;
+    transition: 02.s;
+}
+th:hover{
+    color: black;
+    background: gray;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 75%;
+}
+tr:hover{
+    color: black;
+    background: aqua;
+    cursor: pointer;
+    transition: 1.0s;
+    opacity: 75%;
+}
+
+.table1{
+    width: 30%;
+    border-spacing: 5px;
+}
+
+.table1, .table1 th, .table1 td{
+    border: 1px solid rgb(12, 224, 94);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table1 th, .table1 td{
+    padding: 9px;
+}
+
+.table1 th{
+    background-color: grey;
+    color: white;
+}
